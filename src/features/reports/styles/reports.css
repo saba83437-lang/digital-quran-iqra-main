@@ -1,0 +1,130 @@
+@import url("https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400;1,700&family=Vazirmatn:wght@300;400;500;700;900&display=swap");
+
+.quran-admin-dashboard .font-quran {
+  font-family: "Amiri", "Traditional Arabic", serif;
+}
+.quran-admin-dashboard .font-sans {
+  font-family: "Vazirmatn", sans-serif;
+}
+
+.quran-admin-dashboard {
+  --quran-olive: #4a5839;
+  --quran-olive-light: #5d6d45;
+  --quran-gold: #cfa864;
+  --quran-cream: #faf8f2;
+  background-color: #faf8f2 !important; /* Premium, warm neutral cream background from the screenshot */
+  padding: 1.5rem;
+  border-radius: 2.25rem;
+}
+
+.quran-admin-dashboard .text-shadow-gold {
+  text-shadow: 0 0 12px rgba(207, 168, 100, 0.45);
+}
+
+.quran-admin-dashboard .quran-admin-hero {
+  border: 1px solid rgba(93, 109, 69, 0.2) !important;
+  box-shadow: 0 15px 40px rgba(74, 88, 57, 0.15) !important;
+}
+
+.quran-admin-dashboard .quran-panel {
+  background: #ffffff !important; /* Clean, crisp white clay panel */
+  border: 1px solid rgba(139, 94, 26, 0.18) !important; /* More distinct gold-wood border */
+  box-shadow:
+    0 5px 12px rgba(45, 38, 30, 0.18),
+    0 1px 3px rgba(45, 38, 30, 0.1) !important; /* Smaller but darker, tactile 3D shadow from the reference image */
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.quran-admin-dashboard .quran-panel:hover {
+  border-color: rgba(207, 168, 100, 0.5) !important; /* Gilded gold on hover */
+  box-shadow:
+    0 8px 20px rgba(45, 38, 30, 0.24),
+    0 2px 6px rgba(207, 168, 100, 0.15) !important; /* Tight responsive hover shadow */
+}
+
+.quran-admin-dashboard .quran-panel-heading {
+  min-height: 72px;
+  background: linear-gradient(
+    90deg,
+    #f7f3e8,
+    #efebd9
+  ); /* Recessed warm cream header strip matching the screenshot */
+  border-bottom: 1px solid rgba(139, 94, 26, 0.06);
+}
+
+.quran-admin-dashboard .quran-ornament-line {
+  width: 48px;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, #cfa864);
+}
+
+/* Beautiful Ceramic/Claymorphic Buttons & Cards matching the screenshot */
+.quran-admin-dashboard .quran-soft-clay-card {
+  background: linear-gradient(
+    135deg,
+    #ffffff 0%,
+    #faf5e6 100%
+  ) !important; /* Soft convex ceramic white */
+  border: 1px solid rgba(139, 94, 26, 0.18) !important; /* More distinct gold-wood border */
+  box-shadow:
+    0 5px 12px rgba(45, 38, 30, 0.18),
+    0 1px 3px rgba(45, 38, 30, 0.1),
+    inset 0 2.5px 0 rgba(255, 255, 255, 0.95),
+    inset 0 -2.5px 4px rgba(0, 0, 0, 0.03) !important; /* Smaller, darker, more tactile 3D shadow */
+  color: #2d2620 !important;
+}
+
+.quran-admin-dashboard .quran-soft-clay-card:hover {
+  border-color: rgba(207, 168, 100, 0.4) !important;
+  box-shadow:
+    0 8px 18px rgba(45, 38, 30, 0.24),
+    inset 0 2.5px 0 rgba(255, 255, 255, 0.95),
+    inset 0 -2.5px 4px rgba(0, 0, 0, 0.03) !important;
+}
+
+/* Table Header Styles matching Soft UI */
+.quran-admin-dashboard thead tr {
+  background: linear-gradient(90deg, #f7f3e8, #efebd9) !important;
+  border-bottom: 2px solid #cfbe9b !important;
+}
+.quran-admin-dashboard thead th {
+  color: #4a5839 !important;
+  font-weight: 700 !important;
+  font-family: "Vazirmatn", sans-serif !important;
+  font-size: 13px !important;
+}
+
+/* Gilded distinct tables and list elements with soft shadows */
+.quran-admin-dashboard table {
+  border-collapse: separate !important;
+  border-spacing: 0 4px !important; /* Subtle spacing between rows */
+}
+.quran-admin-dashboard tr {
+  box-shadow: 0 1px 3px rgba(45, 38, 30, 0.1) !important; /* Smaller, darker, tactile row shadows */
+  transition: all 0.2s ease !important;
+}
+.quran-admin-dashboard tr:hover {
+  background-color: rgba(93, 109, 69, 0.04) !important;
+  box-shadow: 0 3px 6px rgba(45, 38, 30, 0.18) !important; /* Tight pop-up hover shadow */
+}
+
+.quran-admin-dashboard .quran-scroll::-webkit-scrollbar {
+  width: 5px;
+}
+.quran-admin-dashboard .quran-scroll::-webkit-scrollbar-track {
+  background: rgba(74, 88, 57, 0.01);
+}
+.quran-admin-dashboard .quran-scroll::-webkit-scrollbar-thumb {
+  background: rgba(207, 168, 100, 0.2);
+  border-radius: 10px;
+}
+.quran-admin-dashboard .quran-scroll::-webkit-scrollbar-thumb:hover {
+  background: rgba(207, 168, 100, 0.35);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .quran-admin-dashboard * {
+    transition: none !important;
+    animation: none !important;
+  }
+}
